@@ -1,0 +1,13 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules
+public/*
+!public/wp-content
+public/wp-content/*
+!public/wp-content/themes
+public/wp-content/themes/*
+!public/wp-content/themes/starter
+$RECYCLE.BIN/
+
+.DS_Store
