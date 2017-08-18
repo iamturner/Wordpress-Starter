@@ -28,4 +28,4 @@ Gulp is used for processing SCSS, with autoprefixing and minifying.
 * SEO Yoast
 * WP Super Cache
 * iThemes Security
-* Conftact Form 7
+* Contact Form 7
