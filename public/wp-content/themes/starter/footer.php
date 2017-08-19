@@ -9,7 +9,16 @@
                 <div class="col col-sm-12 col-md-6">
                     <nav class="footer-nav">
                         <div class="menu">
-                            <?php wp_nav_menu( array('menu' => 'Footer') ); ?>
+                            <!-- Use wp_nav_menu or markup below -->
+                            <?php //wp_nav_menu( array('menu' => 'Footer') ); ?>
+                            <div class="menu-footer-container">
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="#">Link</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End -->
                         </div>
                     </nav>
                     <div class="clearfix"></div>

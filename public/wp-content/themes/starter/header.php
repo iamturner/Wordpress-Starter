@@ -47,7 +47,16 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" width="90" />
                             </a>
                             <div class="menu">
-                                <?php wp_nav_menu( array('menu' => 'Main Menu') ); ?>
+                                <!-- Use wp_nav_menu or markup below -->
+                                <?php //wp_nav_menu( array('menu' => 'Main Menu') ); ?>
+                                <div class="menu-main-menu-container">
+                                    <ul class="menu">
+                                        <li class="menu-item">
+                                            <a href="#">Link</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End -->
                             </div>
                         </nav>
                         <form class="search-form clearfix" role="search" action="<?php echo site_url('/'); ?>">
