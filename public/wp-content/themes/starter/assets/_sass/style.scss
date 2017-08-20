@@ -427,13 +427,19 @@ ul.social-links {
             position: relative;
             
             select {
-                width: 110%;
-                width: calc(100% + 30px);
+                width: 100%;
                 border: none;
-                border-radius: 0;
+                border-radius: inherit;
                 -webkit-appearance: none;
+                -moz-appearance: none;
+                text-indent: 0.01px;
                 padding: 10px 12px;
                 outline: none;
+                
+                &::-ms-expand {
+                    display: none;
+                }
+                
             }
          
             .caret {

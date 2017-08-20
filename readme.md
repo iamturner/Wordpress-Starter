@@ -10,6 +10,8 @@ Ian Turner ( [@i_am_turner](http://twitter.com/i_am_turner) / [iamturner.co.uk](
 
 A simple starting point for a Wordpress-powered website. Included are templates for common pages such as 'Latest News' and 'Contact Us' pages and some common UI components such as an accordion.
 
+[Demo](http://starter-wp.iamturner.co.uk)
+
 Gulp is used for processing SCSS, with autoprefixing and minifying.
 
 ### Features
@@ -22,6 +24,7 @@ Gulp is used for processing SCSS, with autoprefixing and minifying.
 * Cookie consent.
 * CSS-only accordion.
 * Critical CSS.
+* Favicons, (including Apple, MS and Android).
 
 ### Recommended Plugins
 

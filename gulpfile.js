@@ -62,7 +62,7 @@ gulp.task('critical', function (cb) {
             width: 1300
         }], 
         ignore: ['@font-face',/url\(/], 
-        include: [/^\.contact-form/]
+        include: [/^\.contact-form/, /^\.container/]
     });
 });
 
