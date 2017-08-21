@@ -435,6 +435,7 @@ ul.social-links {
                 text-indent: 0.01px;
                 padding: 10px 12px;
                 outline: none;
+                background: white;
                 
                 &::-ms-expand {
                     display: none;
@@ -556,7 +557,7 @@ ul.social-links {
 /* Cookie Consent
 ------------------------------------------------------------------------------------------- */
 
-.cc-banner {
+.cc-window {
     display: flex;
     flex-wrap: nowrap;
     z-index: 9999;
@@ -611,7 +612,7 @@ ul.social-links {
 
 @media only screen and (max-width: $smallScreenWidth) {
     
-    .cc-banner {
+    .cc-window {
         align-items: unset;
         flex-direction: column;
         
