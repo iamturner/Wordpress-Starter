@@ -1,0 +1,31 @@
+.show-md {
+	display: block;
+}
+
+.hide-md {
+	display: none;
+}
+
+@media only screen and (max-width: $smallScreenWidth) {
+	
+	.show-sm {
+		display: block;
+	}
+	
+	.hide-sm {
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: $extraSmallScreenWidth) {
+	
+	.show-xs {
+		display: block;
+	}
+	
+	.hide-xs {
+		display: none;
+	}
+	
+}

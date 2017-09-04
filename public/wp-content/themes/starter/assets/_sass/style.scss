@@ -9,6 +9,7 @@ Version: 1.0
 @import "_partials/_variables";
 @import "_partials/_reset";
 @import "_partials/_grid";
+@import "_partials/_utils";
 
 /* Basics
 ------------------------------------------------------------------------------------------- */
@@ -114,6 +115,11 @@ blockquote, .blockquote {
 }
 
 figure, .figure {
+    max-width: 100%;
+    
+    img {
+        height: auto;
+    }
     
     figcaption, .figcaption {
         font-size: 1.4rem;
