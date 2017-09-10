@@ -37,7 +37,7 @@
     <![endif]-->
     
     <script>loadCSS("<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css");</script>
-    <noscript><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css"</noscript>
+    <noscript><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css" /></noscript>
         
     <script>
         (function () { 
