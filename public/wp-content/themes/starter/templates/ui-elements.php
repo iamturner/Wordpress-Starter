@@ -57,6 +57,29 @@
                 </div>
             </div>
             <!-- End -->
+			
+			<h2>2. Buttons</h2>
+			
+			<p class="em">A range of basic buttons of various styles.</p>
+            
+			<div class="buttons-showcase">
+			
+				<button class="button">Regular Button</button>
+				<button class="button button--round">Rounded Button</button>
+				<button class="button button--outline">Outline Button</button>
+				<button class="button button--clear">Clear Button</button>
+				<button class="button button--round button--outline">Rounded Outline Button</button>
+				<button class="button button--disabled">Disabled Button</button>
+				<button class="button button--raised">Raised Button</button>
+				<button class="button button--round button--raised">Rounded Raised Button</button>
+				<button class="button button--icon-right">
+					Icon Button<i class="icon fa fa-arrow-right"></i>
+				</button>
+				<button class="button button--round button--icon-left">
+					<i class="icon fa fa-arrow-left"></i>Rounded Icon Button
+				</button>
+				
+			</div>
             
         </div>
     </div>
